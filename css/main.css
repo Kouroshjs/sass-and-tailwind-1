@@ -1,0 +1,229 @@
+body {
+  font-family: "Nunito", sans-serif;
+}
+
+.background {
+  background-image: url(/pictures/background.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.cards .card-1 .card__header ion-icon {
+  color: white;
+  font-size: 1.2rem;
+}
+.cards .card-2 .card__header ion-icon {
+  color: rgb(31, 31, 31);
+  font-size: 1.2rem;
+}
+
+.card-1 {
+  width: 15rem;
+  height: 26rem;
+  background-color: rgb(41, 41, 41);
+  border-radius: 8px;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.card__header {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+}
+
+.card__main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 60%;
+  margin: 0 auto;
+}
+.card__main .avatar {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+  background-image: url(/pictures/prof.jpg);
+  margin: 1rem;
+  background-position: center;
+  background-size: cover;
+}
+.card__main .title {
+  color: white;
+  font-size: larger;
+  font-weight: 600;
+}
+.card__main .subtitle {
+  color: rgb(105, 105, 105);
+  font-size: 0.8rem;
+  text-align: center;
+  margin: 0.5rem;
+}
+.card__main .des {
+  color: rgb(213, 213, 213);
+  font-size: 0.7rem;
+  text-align: center;
+}
+.card__main .btn {
+  width: 8rem;
+  height: 2rem;
+  background: linear-gradient(110deg, rgb(183, 0, 255), rgb(242, 103, 163) 70%);
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0.8rem;
+}
+.card__main .btn p {
+  color: white;
+}
+
+.card__footer {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+.card__footer .card__footer-top {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  margin-bottom: 0.5rem;
+}
+.card__footer .card__footer-top span {
+  width: 3.5rem;
+  height: 3.5rem;
+  border-radius: 50%;
+  background: linear-gradient(120deg, rgb(207, 232, 255), blue);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card__footer .card__footer-top span ion-icon {
+  color: white;
+  font-size: 2rem;
+}
+.card__footer .card__footer-down {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+.card__footer .card__footer-down span h1 {
+  color: white;
+  text-align: center;
+}
+.card__footer .card__footer-down span h3 {
+  color: rgb(116, 116, 116);
+  text-align: center;
+  font-size: 0.8rem;
+  margin-top: 0.3rem;
+}
+
+.card-2 {
+  width: 15rem;
+  height: 26rem;
+  background-color: rgb(41, 41, 41);
+  border-radius: 8px;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  background-color: aliceblue;
+  margin-left: 2rem;
+}
+.card-2 .card__header {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+}
+.card-2 .card__main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 60%;
+  margin: 0 auto;
+}
+.card-2 .card__main .avatar {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+  background-image: url(/pictures/prof.jpg);
+  margin: 1rem;
+  background-position: center;
+  background-size: cover;
+}
+.card-2 .card__main .title {
+  color: rgb(1, 1, 1);
+  font-size: larger;
+  font-weight: 600;
+}
+.card-2 .card__main .subtitle {
+  color: rgb(105, 105, 105);
+  font-size: 0.8rem;
+  text-align: center;
+  margin: 0.5rem;
+}
+.card-2 .card__main .des {
+  color: rgb(42, 42, 42);
+  font-size: 0.7rem;
+  text-align: center;
+}
+.card-2 .card__main .btn {
+  width: 8rem;
+  height: 2rem;
+  background: linear-gradient(110deg, rgb(183, 0, 255), rgb(242, 103, 163) 70%);
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0.8rem;
+}
+.card-2 .card__main .btn p {
+  color: white;
+}
+.card-2 .card__footer {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+.card-2 .card__footer .card__footer-top {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  margin-bottom: 0.5rem;
+}
+.card-2 .card__footer .card__footer-top span {
+  width: 3.5rem;
+  height: 3.5rem;
+  border-radius: 50%;
+  background: linear-gradient(120deg, rgb(207, 232, 255), blue);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card-2 .card__footer .card__footer-top span ion-icon {
+  color: white;
+  font-size: 2rem;
+}
+.card-2 .card__footer .card__footer-down {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+.card-2 .card__footer .card__footer-down span h1 {
+  color: rgb(6, 6, 6);
+  text-align: center;
+}
+.card-2 .card__footer .card__footer-down span h3 {
+  color: rgb(116, 116, 116);
+  text-align: center;
+  font-size: 0.8rem;
+  margin-top: 0.3rem;
+}/*# sourceMappingURL=main.css.map */
