@@ -52,7 +52,7 @@ body {
   width: 5rem;
   height: 5rem;
   border-radius: 50%;
-  background-image: url(/pictures/prof.jpg);
+  background-image: url(../pictures/prof.jpg);
   margin: 1rem;
   background-position: center;
   background-size: cover;
@@ -154,7 +154,7 @@ body {
   width: 5rem;
   height: 5rem;
   border-radius: 50%;
-  background-image: url(/pictures/prof.jpg);
+  background-image: url(../pictures/prof.jpg);
   margin: 1rem;
   background-position: center;
   background-size: cover;
